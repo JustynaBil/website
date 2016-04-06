@@ -1,0 +1,145 @@
+body {
+    margin:0;
+    }
+  .main {
+    margin: 0;
+    width: 850px;
+    height: 560px;
+    position: relative;
+    background-image: url(img/myfoto.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    }
+    
+  .sidebar {
+    background-color:white;
+    opacity:0.5;
+    margin-top:0;
+    margin-left: 30px;
+    width:140px;
+    height:560px;
+    position: relative;
+    }
+     
+  .sidebar ul {
+    font-size: 20px;
+    color: black;
+    top:25px;
+    position:relative; 
+    width:140px;
+    height:350px;
+    margin-top:0;
+    opacity: 1;
+    }
+    
+a {
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+    }
+    
+a:visited {
+    color: green;
+    }
+    
+A:hover { 
+    text-decoration: underline;
+    }
+  .list {
+  color: black;
+    }
+    
+header {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    background-color:#e6e3dc;
+    background-size: cover;
+    overflow: hidden;
+    }
+
+.who h1 { 
+    letter-spacing: 0.7em;
+    font-size: 2.1em;
+    text-shadow: 1px 1px 10px #3B3B3B;
+    font-weight: 300;
+    background: rgba(1, 1, 1, 0.1); 
+    padding: 0.3em; 
+    color: white;
+    padding-left: 1em;
+    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s; 
+    -moz-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    -ms-animation-delay: 0.7s;
+    }
+
+hr {
+    width: 7%; 
+    margin: 0 auto 0 ;
+    opacity:0.3;
+    height: 1px; 
+    background: #333; 
+    border: 0; 
+}
+ h1 { 
+   letter-spacing: 0.7em;
+   font-size: 2.1em;
+   text-shadow: 1px 1px 10px #3B3B3B;
+   font-weight: 300; background: rgba(1, 1, 1, 0.1);
+   padding: 0.3em;
+   color: white;
+   padding-left: 1em;
+   animation-delay: 0.7s;
+   -webkit-animation-delay: 0.7s;
+   -moz-animation-delay: 0.7s;
+   -o-animation-delay: 0.7s;
+   -ms-animation-delay: 0.7s;
+   }
+ 
+ 
+#interests {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 105px;
+  background: white;
+  position: relative;
+  text-align: center;
+  border-color: white;
+  position: relative;
+  }
+  
+#interests .bold 
+{ font-weight: 600;
+}
+
+#interests i {
+    font-size: 4em;
+    color: #737373;
+    }
+
+#interests h3{ 
+    font-weight: 400;
+    color: #4c4c4c;
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    }
+#interests p {
+
+    color: #595959;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em; 
+    letter-spacing: 1px;
+    font-weight: 300; 
+    font-size: 15px;
+    line-height: 25px;
+    }
+#interests .dash {
+    background: lightgray;
+    }
